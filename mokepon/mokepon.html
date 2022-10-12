@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="js/estilos.css">
+    <title>MOKEPON!</title>
+</head>
+
+<body>
+    <div class="titulo-Principal">
+        <h1 class="tituloP">MOKEPON!</h1>
+        <div>
+            <h2 class="tituloSec">Elige tu mascota:</h2>
+
+        </div>
+    </div>
+    <section id="seleccionar-mascota">
+
+
+    </section>
+
+    <div class="div-btn-seleccion">
+        <button id="boton-mascota">Seleccionar mascota</button>
+    </div>
+
+
+    <section id="seleccionar-ataque">
+
+        <div id="seccion-titulo-combate">
+        </div>
+        <div id="imagenes-combate">
+
+            <div class="card-jugador">
+                <img id="imagen-dinamica-jugador" alt="mokepon">
+                <p>Tu mascota <span id="mascota-jugador"></span> <br> tiene <span id="vidas-jugador">3</span> vidas</p>
+            </div>
+            <div id="versus">
+                <img src="imagenes/vs.jpg" alt="vs">
+            </div>
+
+            <div class="card-enemigo">
+                <img id="imagen-dinamica-enemigo" alt="mokepon">
+                <p>La mascota del enemigo <span id="mascota-enemigo"></span> <br> tiene <span id="vidas-enemigo">3</span> vidas</p>
+            </div>
+        </div>
+
+        <div id="subtit">
+            <h2 class="sub-ataque">Elige tu ataque:</h2>
+        </div>
+
+        <div id="botones-ataque">
+            <button id="boton-fuego">Fuego 🔥</button>
+            <button id="boton-agua">Agua 💧</button>
+            <button id="boton-tierra">Tierra 🌱</button>
+        </div>
+
+    </section>
+
+    <section class="mensajes" id="mensajess">
+    </section>
+
+    <section id="reiniciar">
+        <div id="reinicio">
+            <button id="boton-reiniciar">Reiniciar</button>
+        </div>
+    </section>
+
+
+    <script src="js/mokepon.js"></script>
+</body>
+
+</html>
